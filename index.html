@@ -1,0 +1,1690 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+   <meta charset="utf-8">
+   <title>Website title || Home</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   <!-- Favicons -->
+   <link rel="apple-touch-icon" href="asset/img/favicons/apple-touch-icon.png" sizes="180x180">
+   <link rel="icon" href="asset/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+   <link rel="icon" href="asset/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+   <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+   <link rel="stylesheet" href="asset/css/style.css">
+   <link rel="stylesheet" href="asset/css/responsive.css">
+</head>
+
+<body>
+
+   <div id="main_app">
+      <div class="sidebar">
+          <div class="sidebar_asset_select">
+             <ul class="nav nav-tabs" id="nav-tab" role="tablist">
+               <li>
+                   <button class="active" type="button" id="nav-bg-tab" data-bs-toggle="tab" data-bs-target="#nav-bg" type="button" role="tab" aria-controls="nav-bg" aria-selected="true">
+                        <span class="icon">
+                           <img src="asset/img/icons/background.png" alt="">
+                        </span>
+                        Background
+                     </button>
+               </li>
+               <li>
+                  <button type="button" id="nav-fur-tab" data-bs-toggle="tab" data-bs-target="#nav-fur" type="button" role="tab" aria-controls="nav-fur" aria-selected="false">
+                     <span class="icon">
+                        <img src="asset/img/icons/fur.png" alt="">
+                     </span>
+                     Fur
+                  </button>
+               </li>
+               <li>
+                  <button type="button" id="nav-earring-tab" data-bs-toggle="tab" data-bs-target="#nav-earring" type="button" role="tab" aria-controls="nav-earring" aria-selected="false">
+                     <span class="icon">
+                        <img src="asset/img/icons/earings.png" alt="">
+                     </span>
+                     Earring
+                  </button>
+               </li>
+               <li>
+                  <button type="button" id="nav-clothes-tab" data-bs-toggle="tab" data-bs-target="#nav-clothes" type="button" role="tab" aria-controls="nav-clothes" aria-selected="false">
+                     <span class="icon">
+                        <img src="asset/img/icons/clothes.png" alt="">
+                     </span>
+                     Clothes
+                  </button>
+               </li>
+               <li>
+                  <button type="button" id="nav-hat-tab" data-bs-toggle="tab" data-bs-target="#nav-hat" type="button" role="tab" aria-controls="nav-hat" aria-selected="false">
+                     <span class="icon">
+                        <img src="asset/img/icons/hat.png" alt="">
+                     </span>
+                     Hat
+                  </button>
+               </li>
+               <li>
+                  <button type="button" id="nav-eyes-tab" data-bs-toggle="tab" data-bs-target="#nav-eyes" type="button" role="tab" aria-controls="nav-eyes" aria-selected="false">
+                     <span class="icon">
+                        <img src="asset/img/icons/eye.png" alt="">
+                     </span>
+                     Eyes
+                  </button>
+               </li>
+               <li>
+                  <button type="button" id="nav-mouth-tab" data-bs-toggle="tab" data-bs-target="#nav-mouth" type="button" role="tab" aria-controls="nav-mouth" aria-selected="false">
+                     <span class="icon">
+                        <img src="asset/img/icons/mouth.png" alt="">
+                     </span>
+                     Mouth
+                  </button>
+               </li>
+             </ul>
+          </div>
+      </div>
+
+      <div class="tab-content" id="asset_tab_wrapper">
+         <div class="mobile_tab_select_close">
+            <button type="button">
+               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+               close sidebar
+            </button>
+         </div>
+         <!-- bg select option  -->
+         <div class="tab-pane fade show active global_slect_wrapper" id="nav-bg" role="tabpanel" aria-labelledby="nav-bg-tab">
+            <div class="tab_global_title">
+               <h3>Select Background</h3>
+            </div>
+            <div class="bg_select_option_form">
+               <div class="row">
+                  <div class="col-lg-6">
+                     <div class="bg_select_input_box">
+                        <input checked type="radio" id="bg01" name="backgroundSelect" value="all" data-bg-class="bg_aquamarine">
+                        <label for="bg01" style="background-color: #68D9B5;"></label>
+                        <p>Aquamarine</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="bg_select_input_box">
+                        <input type="radio" id="bg02" name="backgroundSelect" value="all" data-bg-class="bg_armyGreen">
+                        <label for="bg02" style="background-color: #3E8948;"></label>
+                        <p>Army Green</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="bg_select_input_box">
+                        <input type="radio" id="bg03" name="backgroundSelect" value="all" data-bg-class="bg_blue">
+                        <label for="bg03" style="background-color: #3FAED9;"></label>
+                        <p>Blue</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="bg_select_input_box">
+                        <input type="radio" id="bg04" name="backgroundSelect" value="all" data-bg-class="bg_gray">
+                        <label for="bg04" style="background-color: #CAE4FF;"></label>
+                        <p>Gray</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="bg_select_input_box">
+                        <input type="radio" id="bg05" name="backgroundSelect" value="all" data-bg-class="bg_newPunkBlue">
+                        <label for="bg05" style="background-color: #2CE8F5;"></label>
+                        <p>New Punk Blue</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="bg_select_input_box">
+                        <input type="radio" id="bg06" name="backgroundSelect" value="all" data-bg-class="bg_orange">
+                        <label for="bg06" style="background-color: #FEAE34;"></label>
+                        <p>Orange</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="bg_select_input_box">
+                        <input type="radio" id="bg07" name="backgroundSelect" value="all" data-bg-class="bg_purple">
+                        <label for="bg07" style="background-color: #B55088;"></label>
+                        <p>Purple</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="bg_select_input_box">
+                        <input type="radio" id="bg08" name="backgroundSelect" value="all" data-bg-class="bg_yellow">
+                        <label for="bg08" style="background-color: #EFD511;"></label>
+                        <p>Yellow</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- fur select option  -->
+         <div class="tab-pane fade global_slect_wrapper" id="nav-fur" role="tabpanel" aria-labelledby="nav-fur-tab">
+            <div class="tab_global_title">
+               <h3>Select Fur</h3>
+            </div>
+            <div class="fur_select_option_form">
+               <div class="row">
+                  <div class="col-lg-6">
+                     <div class="fur_select_input_box">
+                        <input type="radio" id="fur1" name="furselectOption" value="all" data-image-src="asset/img/Fur/Black.png">
+                        <label for="fur1">
+                           <img src="asset/img/Fur/Black.png" alt="">
+                        </label>
+                        <p>Black</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="fur_select_input_box">
+                        <input type="radio" id="fur2" name="furselectOption" value="all" data-image-src="asset/img/Fur/Blue.png">
+                        <label for="fur2">
+                           <img src="asset/img/Fur/Blue.png" alt="">
+                        </label>
+                        <p>Blue</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="fur_select_input_box">
+                        <input type="radio" id="fur3" name="furselectOption" value="all" data-image-src="asset/img/Fur/Brown.png">
+                        <label for="fur3">
+                           <img src="asset/img/Fur/Brown.png" alt="">
+                        </label>
+                        <p>Brown</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="fur_select_input_box">
+                        <input type="radio" id="fur4" name="furselectOption" value="all" data-image-src="asset/img/Fur/Cheetah.png">
+                        <label for="fur4">
+                           <img src="asset/img/Fur/Cheetah.png" alt="">
+                        </label>
+                        <p>Cheetah</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="fur_select_input_box">
+                        <input type="radio" id="fur5" name="furselectOption" value="all" data-image-src="asset/img/Fur/Cream.png">
+                        <label for="fur5">
+                           <img src="asset/img/Fur/Cream.png" alt="">
+                        </label>
+                        <p>Cream</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="fur_select_input_box">
+                        <input type="radio" id="fur6" name="furselectOption" value="all" data-image-src="asset/img/Fur/DarkBrown.png">
+                        <label for="fur6">
+                           <img src="asset/img/Fur/DarkBrown.png" alt="">
+                        </label>
+                        <p>Dark Brown</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="fur_select_input_box">
+                        <input type="radio" id="fur7" name="furselectOption" value="all" data-image-src="asset/img/Fur/DeathBot.png">
+                        <label for="fur7">
+                           <img src="asset/img/Fur/DeathBot.png" alt="">
+                        </label>
+                        <p>Death Bot</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="fur_select_input_box">
+                        <input type="radio" id="fur8" name="furselectOption" value="all" data-image-src="asset/img/Fur/Dmt.png">
+                        <label for="fur8">
+                           <img src="asset/img/Fur/Dmt.png" alt="">
+                        </label>
+                        <p>Dmt</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="fur_select_input_box">
+                        <input type="radio" id="fur9" name="furselectOption" value="all" data-image-src="asset/img/Fur/GoldenBrown.png">
+                        <label for="fur9">
+                           <img src="asset/img/Fur/GoldenBrown.png" alt="">
+                        </label>
+                        <p>Golden Brown</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="fur_select_input_box">
+                        <input type="radio" id="fur10" name="furselectOption" value="all" data-image-src="asset/img/Fur/Gray.png">
+                        <label for="fur10">
+                           <img src="asset/img/Fur/Gray.png" alt="">
+                        </label>
+                        <p>Gray</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="fur_select_input_box">
+                        <input type="radio" id="fur11" name="furselectOption" value="all" data-image-src="asset/img/Fur/Noise.png">
+                        <label for="fur11">
+                           <img src="asset/img/Fur/Noise.png" alt="">
+                        </label>
+                        <p>Noise</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="fur_select_input_box">
+                        <input type="radio" id="fur12" name="furselectOption" value="all" data-image-src="asset/img/Fur/Pink.png">
+                        <label for="fur12">
+                           <img src="asset/img/Fur/Pink.png" alt="">
+                        </label>
+                        <p>Pink</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="fur_select_input_box">
+                        <input type="radio" id="fur13" name="furselectOption" value="all" data-image-src="asset/img/Fur/Red.png">
+                        <label for="fur13">
+                           <img src="asset/img/Fur/Red.png" alt="">
+                        </label>
+                        <p>Red</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="fur_select_input_box">
+                        <input type="radio" id="fur14" name="furselectOption" value="all" data-image-src="asset/img/Fur/Robot.png">
+                        <label for="fur14">
+                           <img src="asset/img/Fur/Robot.png" alt="">
+                        </label>
+                        <p>Robot</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="fur_select_input_box">
+                        <input type="radio" id="fur15" name="furselectOption" value="all" data-image-src="asset/img/Fur/SolidGold.png">
+                        <label for="fur15">
+                           <img src="asset/img/Fur/SolidGold.png" alt="">
+                        </label>
+                        <p>Solid Gold</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="fur_select_input_box">
+                        <input type="radio" id="fur16" name="furselectOption" value="all" data-image-src="asset/img/Fur/Tan.png">
+                        <label for="fur16">
+                           <img src="asset/img/Fur/Tan.png" alt="">
+                        </label>
+                        <p>Tan</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="fur_select_input_box">
+                        <input type="radio" id="fur17" name="furselectOption" value="all" data-image-src="asset/img/Fur/Trippy.png">
+                        <label for="fur17">
+                           <img src="asset/img/Fur/Trippy.png" alt="">
+                        </label>
+                        <p>Trippy</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="fur_select_input_box">
+                        <input type="radio" id="fur18" name="furselectOption" value="all" data-image-src="asset/img/Fur/White.png">
+                        <label for="fur18">
+                           <img src="asset/img/Fur/White.png" alt="">
+                        </label>
+                        <p>White</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="fur_select_input_box">
+                        <input type="radio" id="fur19" name="furselectOption" value="all" data-image-src="asset/img/Fur/Zombie.png">
+                        <label for="fur19">
+                           <img src="asset/img/Fur/Zombie.png" alt="">
+                        </label>
+                        <p>Zombie</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- earings select options  -->
+         <div class="tab-pane fade global_slect_wrapper" id="nav-earring" role="tabpanel" aria-labelledby="nav-earring-tab">
+            <div class="tab_global_title">
+               <h3>Select Earring</h3>
+            </div>
+            <div class="earring_select_option_form">
+               <div class="row">
+                  <div class="col-lg-6">
+                     <div class="earring_select_input_box">
+                        <input type="radio" id="earring1" name="earringselectOption" value="all" data-image-src="asset/img/earrings/Cross.png">
+                        <label for="earring1">
+                           <img src="asset/img/earrings/Cross.png" alt="">
+                        </label>
+                        <p>Cross</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="earring_select_input_box">
+                        <input type="radio" id="earring2" name="earringselectOption" value="all" data-image-src="asset/img/earrings/DiamondStud.png">
+                        <label for="earring2">
+                           <img src="asset/img/earrings/DiamondStud.png" alt="">
+                        </label>
+                        <p>Diamond Stud</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="earring_select_input_box">
+                        <input type="radio" id="earring3" name="earringselectOption" value="all" data-image-src="asset/img/earrings/GoldHoop.png">
+                        <label for="earring3">
+                           <img src="asset/img/earrings/GoldHoop.png" alt="">
+                        </label>
+                        <p>Gold Hoop</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="earring_select_input_box">
+                        <input type="radio" id="earring4" name="earringselectOption" value="all" data-image-src="asset/img/earrings/GoldStud.png">
+                        <label for="earring4">
+                           <img src="asset/img/earrings/GoldStud.png" alt="">
+                        </label>
+                        <p>Gold Stud</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="earring_select_input_box">
+                        <input type="radio" id="earring5" name="earringselectOption" value="all" data-image-src="asset/img/earrings/SilverHoop.png">
+                        <label for="earring5">
+                           <img src="asset/img/earrings/SilverHoop.png" alt="">
+                        </label>
+                        <p>Silver Hoop</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="earring_select_input_box">
+                        <input type="radio" id="earring6" name="earringselectOption" value="all" data-image-src="asset/img/earrings/SylverStup.png">
+                        <label for="earring6">
+                           <img src="asset/img/earrings/SylverStup.png" alt="">
+                        </label>
+                        <p>Silver Stud</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- clothes select options  -->
+         <div class="tab-pane fade global_slect_wrapper" id="nav-clothes" role="tabpanel" aria-labelledby="nav-clothes-tab">
+            <div class="tab_global_title">
+               <h3>Select Clothes</h3>
+            </div>
+            <div class="cloth_select_option_form">
+               <div class="row">
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth1" name="clothselectOption" value="all" data-image-src="asset/img/clothes/AdmiralsCoat.png">
+                        <label for="cloth1">
+                           <img src="asset/img/clothes/AdmiralsCoat.png" alt="">
+                        </label>
+                        <p>Admirals Coat</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth2" name="clothselectOption" value="all" data-image-src="asset/img/clothes/Bandolier.png">
+                        <label for="cloth2">
+                           <img src="asset/img/clothes/Bandolier.png" alt="">
+                        </label>
+                        <p>Bandolier</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth3" name="clothselectOption" value="all" data-image-src="asset/img/clothes/BaycTBlack.png">
+                        <label for="cloth3">
+                           <img src="asset/img/clothes/BaycTBlack.png" alt="">
+                        </label>
+                        <p>Bayc T Black</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth4" name="clothselectOption" value="all" data-image-src="asset/img/clothes/BaycTRed.png">
+                        <label for="cloth4">
+                           <img src="asset/img/clothes/BaycTRed.png" alt="">
+                        </label>
+                        <p>Bayc T Red</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth5" name="clothselectOption" value="all" data-image-src="asset/img/clothes/BikerVest.png">
+                        <label for="cloth5">
+                           <img src="asset/img/clothes/BikerVest.png" alt="">
+                        </label>
+                        <p>Biker Vest</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth6" name="clothselectOption" value="all" data-image-src="asset/img/clothes/BlackHolesT.png">
+                        <label for="cloth6">
+                           <img src="asset/img/clothes/BlackHolesT.png" alt="">
+                        </label>
+                        <p>Black Holes T</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth7" name="clothselectOption" value="all" data-image-src="asset/img/clothes/BlackSuit.png">
+                        <label for="cloth7">
+                           <img src="asset/img/clothes/BlackSuit.png" alt="">
+                        </label>
+                        <p>Black Suit</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth8" name="clothselectOption" value="all" data-image-src="asset/img/clothes/BlackT.png">
+                        <label for="cloth8">
+                           <img src="asset/img/clothes/BlackT.png" alt="">
+                        </label>
+                        <p>Black T</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth9" name="clothselectOption" value="all" data-image-src="asset/img/clothes/BlueDress.png">
+                        <label for="cloth9">
+                           <img src="asset/img/clothes/BlueDress.png" alt="">
+                        </label>
+                        <p>Blue Dress</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth10" name="clothselectOption" value="all" data-image-src="asset/img/clothes/BoneNecklace.png">
+                        <label for="cloth10">
+                           <img src="asset/img/clothes/BoneNecklace.png" alt="">
+                        </label>
+                        <p>Bone Necklace</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth11" name="clothselectOption" value="all" data-image-src="asset/img/clothes/BoneTee.png">
+                        <label for="cloth11">
+                           <img src="asset/img/clothes/BoneTee.png" alt="">
+                        </label>
+                        <p>Bone Tee</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth12" name="clothselectOption" value="all" data-image-src="asset/img/clothes/CavemanPelt.png">
+                        <label for="cloth12">
+                           <img src="asset/img/clothes/CavemanPelt.png" alt="">
+                        </label>
+                        <p>Caveman Pelt</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth13" name="clothselectOption" value="all" data-image-src="asset/img/clothes/CowboyShirt.png">
+                        <label for="cloth13">
+                           <img src="asset/img/clothes/CowboyShirt.png" alt="">
+                        </label>
+                        <p>Cowboy Shirt</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth14" name="clothselectOption" value="all" data-image-src="asset/img/clothes/Guayabera.png">
+                        <label for="cloth14">
+                           <img src="asset/img/clothes/Guayabera.png" alt="">
+                        </label>
+                        <p>Guayabera</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth15" name="clothselectOption" value="all" data-image-src="asset/img/clothes/Hawaiian.png">
+                        <label for="cloth15">
+                           <img src="asset/img/clothes/Hawaiian.png" alt="">
+                        </label>
+                        <p>Hawaiian</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth16" name="clothselectOption" value="all" data-image-src="asset/img/clothes/HipHop.png">
+                        <label for="cloth16">
+                           <img src="asset/img/clothes/HipHop.png" alt="">
+                        </label>
+                        <p>Hip Hop</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth17" name="clothselectOption" value="all" data-image-src="asset/img/clothes/KingsRobe.png">
+                        <label for="cloth17">
+                           <img src="asset/img/clothes/KingsRobe.png" alt="">
+                        </label>
+                        <p>Kings Robe</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth18" name="clothselectOption" value="all" data-image-src="asset/img/clothes/LabCoat.png">
+                        <label for="cloth18">
+                           <img src="asset/img/clothes/LabCoat.png" alt="">
+                        </label>
+                        <p>Lab Coat</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth19" name="clothselectOption" value="all" data-image-src="asset/img/clothes/LeatherJacket.png">
+                        <label for="cloth19">
+                           <img src="asset/img/clothes/LeatherJacket.png" alt="">
+                        </label>
+                        <p>Leather Jacket</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth20" name="clothselectOption" value="all" data-image-src="asset/img/clothes/LeatherPunkJacket.png">
+                        <label for="cloth20">
+                           <img src="asset/img/clothes/LeatherPunkJacket.png" alt="">
+                        </label>
+                        <p>Leather Punk Jacket</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth21" name="clothselectOption" value="all" data-image-src="asset/img/clothes/LumberjackShirt.png">
+                        <label for="cloth21">
+                           <img src="asset/img/clothes/LumberjackShirt.png" alt="">
+                        </label>
+                        <p>Lumberjack Shirt</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth22" name="clothselectOption" value="all" data-image-src="asset/img/clothes/NavyStripedTee.png">
+                        <label for="cloth22">
+                           <img src="asset/img/clothes/NavyStripedTee.png" alt="">
+                        </label>
+                        <p>Navy Striped Tee</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth23" name="clothselectOption" value="all" data-image-src="asset/img/clothes/PimpCoat.png">
+                        <label for="cloth23">
+                           <img src="asset/img/clothes/PimpCoat.png" alt="">
+                        </label>
+                        <p>Pimp Coat</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth24" name="clothselectOption" value="all" data-image-src="asset/img/clothes/PrisonJumpsuit.png">
+                        <label for="cloth24">
+                           <img src="asset/img/clothes/PrisonJumpsuit.png" alt="">
+                        </label>
+                        <p>Prison Jumpsuit</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth25" name="clothselectOption" value="all" data-image-src="asset/img/clothes/PromDress.png">
+                        <label for="cloth25">
+                           <img src="asset/img/clothes/PromDress.png" alt="">
+                        </label>
+                        <p>Prom Dress</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth26" name="clothselectOption" value="all" data-image-src="asset/img/clothes/PuffyVest.png">
+                        <label for="cloth26">
+                           <img src="asset/img/clothes/PuffyVest.png" alt="">
+                        </label>
+                        <p>Puffy Vest</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth27" name="clothselectOption" value="all" data-image-src="asset/img/clothes/RainbowSuspenders.png">
+                        <label for="cloth27">
+                           <img src="asset/img/clothes/RainbowSuspenders.png" alt="">
+                        </label>
+                        <p>Rainbow Suspenders</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth28" name="clothselectOption" value="all" data-image-src="asset/img/clothes/SailorShirt.png">
+                        <label for="cloth28">
+                           <img src="asset/img/clothes/SailorShirt.png" alt="">
+                        </label>
+                        <p>Sailor Shirt</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth29" name="clothselectOption" value="all" data-image-src="asset/img/clothes/Service.png">
+                        <label for="cloth29">
+                           <img src="asset/img/clothes/Service.png" alt="">
+                        </label>
+                        <p>Service</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth30" name="clothselectOption" value="all" data-image-src="asset/img/clothes/SleevelessLogoT.png">
+                        <label for="cloth30">
+                           <img src="asset/img/clothes/SleevelessLogoT.png" alt="">
+                        </label>
+                        <p>Sleeveless Logo T</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth31" name="clothselectOption" value="all" data-image-src="asset/img/clothes/SleevelessT.png">
+                        <label for="cloth31">
+                           <img src="asset/img/clothes/SleevelessT.png" alt="">
+                        </label>
+                        <p>Sleeveless T</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth32" name="clothselectOption" value="all" data-image-src="asset/img/clothes/SmokingJacket.png">
+                        <label for="cloth32">
+                           <img src="asset/img/clothes/SmokingJacket.png" alt="">
+                        </label>
+                        <p>Smoking Jacket</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth33" name="clothselectOption" value="all" data-image-src="asset/img/clothes/SpaceSuit.png">
+                        <label for="cloth33">
+                           <img src="asset/img/clothes/SpaceSuit.png" alt="">
+                        </label>
+                        <p>Space Suit</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth34" name="clothselectOption" value="all" data-image-src="asset/img/clothes/StripedTee.png">
+                        <label for="cloth34">
+                           <img src="asset/img/clothes/StripedTee.png" alt="">
+                        </label>
+                        <p>Striped Tee</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth35" name="clothselectOption" value="all" data-image-src="asset/img/clothes/StuntJacket.png">
+                        <label for="cloth35">
+                           <img src="asset/img/clothes/StuntJacket.png" alt="">
+                        </label>
+                        <p>Stunt Jacket</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth36" name="clothselectOption" value="all" data-image-src="asset/img/clothes/Tanktop.png">
+                        <label for="cloth36">
+                           <img src="asset/img/clothes/Tanktop.png" alt="">
+                        </label>
+                        <p>Tanktop</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth37" name="clothselectOption" value="all" data-image-src="asset/img/clothes/TieDye.png">
+                        <label for="cloth37">
+                           <img src="asset/img/clothes/TieDye.png" alt="">
+                        </label>
+                        <p>Tie Dye</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth38" name="clothselectOption" value="all" data-image-src="asset/img/clothes/Toga.png">
+                        <label for="cloth38">
+                           <img src="asset/img/clothes/Toga.png" alt="">
+                        </label>
+                        <p>Toga</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth39" name="clothselectOption" value="all" data-image-src="asset/img/clothes/TuxedoTee.png">
+                        <label for="cloth39">
+                           <img src="asset/img/clothes/TuxedoTee.png" alt="">
+                        </label>
+                        <p>Tuxedo Tee</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth40" name="clothselectOption" value="all" data-image-src="asset/img/clothes/TweedSuit.png">
+                        <label for="cloth40">
+                           <img src="asset/img/clothes/TweedSuit.png" alt="">
+                        </label>
+                        <p>Tweed Suit</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth41" name="clothselectOption" value="all" data-image-src="asset/img/clothes/VietnamJacket.png">
+                        <label for="cloth41">
+                           <img src="asset/img/clothes/VietnamJacket.png" alt="">
+                        </label>
+                        <p>Vietnam Jacket</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth42" name="clothselectOption" value="all" data-image-src="asset/img/clothes/WoolTurtleneck.png">
+                        <label for="cloth42">
+                           <img src="asset/img/clothes/WoolTurtleneck.png" alt="">
+                        </label>
+                        <p>Wool Turtleneck</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="cloth_select_input_box">
+                        <input type="radio" id="cloth43" name="clothselectOption" value="all" data-image-src="asset/img/clothes/WorkVest.png">
+                        <label for="cloth43">
+                           <img src="asset/img/clothes/WorkVest.png" alt="">
+                        </label>
+                        <p>Work Vest</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- hat select options  -->
+         <div class="tab-pane fade global_slect_wrapper" id="nav-hat" role="tabpanel" aria-labelledby="nav-hat-tab">
+            <div class="tab_global_title">
+               <h3>Select Hat</h3>
+            </div>
+            <div class="hat_select_option_form">
+               <div class="row">
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat1" name="hatSelectOption" value="all" data-image-src="asset/img/hat/armyhat.png">
+                        <label for="hat1">
+                           <img src="asset/img/hat/armyhat.png" alt="">
+                        </label>
+                        <p>Army Hat</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat2" name="hatSelectOption" value="all" data-image-src="asset/img/hat/BabysBonnet.png">
+                        <label for="hat2">
+                           <img src="asset/img/hat/BabysBonnet.png" alt="">
+                        </label>
+                        <p>Baby's Bonnet</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat3" name="hatSelectOption" value="all" data-image-src="asset/img/hat/BandanaBlue.png">
+                        <label for="hat3">
+                           <img src="asset/img/hat/BandanaBlue.png" alt="">
+                        </label>
+                        <p>Bandana Blue</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat4" name="hatSelectOption" value="all" data-image-src="asset/img/hat/BaycFlippedBrim.png">
+                        <label for="hat4">
+                           <img src="asset/img/hat/BaycFlippedBrim.png" alt="">
+                        </label>
+                        <p>Bayc Flipped Brim</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat5" name="hatSelectOption" value="all" data-image-src="asset/img/hat/BaycHatBlack.png">
+                        <label for="hat5">
+                           <img src="asset/img/hat/BaycHatBlack.png" alt="">
+                        </label>
+                        <p>Bayc Hat Black</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat6" name="hatSelectOption" value="all" data-image-src="asset/img/hat/BaycHatRed.png">
+                        <label for="hat6">
+                           <img src="asset/img/hat/BaycHatRed.png" alt="">
+                        </label>
+                        <p>Bayc Hat Red</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat7" name="hatSelectOption" value="all" data-image-src="asset/img/hat/Beanie.png">
+                        <label for="hat7">
+                           <img src="asset/img/hat/Beanie.png" alt="">
+                        </label>
+                        <p>Beanie</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat8" name="hatSelectOption" value="all" data-image-src="asset/img/hat/Bowler.png">
+                        <label for="hat8">
+                           <img src="asset/img/hat/Bowler.png" alt="">
+                        </label>
+                        <p>Bowler</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat9" name="hatSelectOption" value="all" data-image-src="asset/img/hat/BunnyEars.png">
+                        <label for="hat9">
+                           <img src="asset/img/hat/BunnyEars.png" alt="">
+                        </label>
+                        <p>Bunny Ears</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat10" name="hatSelectOption" value="all" data-image-src="asset/img/hat/CommieHat.png">
+                        <label for="hat10">
+                           <img src="asset/img/hat/CommieHat.png" alt="">
+                        </label>
+                        <p>Commie Hat</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat11" name="hatSelectOption" value="all" data-image-src="asset/img/hat/CowboyHat.png">
+                        <label for="hat11">
+                           <img src="asset/img/hat/CowboyHat.png" alt="">
+                        </label>
+                        <p>Cowboy Hat</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat12" name="hatSelectOption" value="all" data-image-src="asset/img/hat/FauxHawk.png">
+                        <label for="hat12">
+                           <img src="asset/img/hat/FauxHawk.png" alt="">
+                        </label>
+                        <p>Faux Hawk</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat13" name="hatSelectOption" value="all" data-image-src="asset/img/hat/Fez.png">
+                        <label for="hat13">
+                           <img src="asset/img/hat/Fez.png" alt="">
+                        </label>
+                        <p>Fez</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat14" name="hatSelectOption" value="all" data-image-src="asset/img/hat/FichermansHat.png">
+                        <label for="hat14">
+                           <img src="asset/img/hat/FichermansHat.png" alt="">
+                        </label>
+                        <p>Fisherman's Hat</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat15" name="hatSelectOption" value="all" data-image-src="asset/img/hat/GirlsHairPink.png">
+                        <label for="hat15">
+                           <img src="asset/img/hat/GirlsHairPink.png" alt="">
+                        </label>
+                        <p>Girl's Hair Pink</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat16" name="hatSelectOption" value="all" data-image-src="asset/img/hat/GirlsHairShort.png">
+                        <label for="hat16">
+                           <img src="asset/img/hat/GirlsHairShort.png" alt="">
+                        </label>
+                        <p>Girl's Hair Short</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat17" name="hatSelectOption" value="all" data-image-src="asset/img/hat/Halo.png">
+                        <label for="hat17">
+                           <img src="asset/img/hat/Halo.png" alt="">
+                        </label>
+                        <p>Halo</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat18" name="hatSelectOption" value="all" data-image-src="asset/img/hat/Horns.png">
+                        <label for="hat18">
+                           <img src="asset/img/hat/Horns.png" alt="">
+                        </label>
+                        <p>Horns</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat19" name="hatSelectOption" value="all" data-image-src="asset/img/hat/IrishBoho.png">
+                        <label for="hat19">
+                           <img src="asset/img/hat/IrishBoho.png" alt="">
+                        </label>
+                        <p>Irish Boho</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat20" name="hatSelectOption" value="all" data-image-src="asset/img/hat/KingsCrown.png">
+                        <label for="hat20">
+                           <img src="asset/img/hat/KingsCrown.png" alt="">
+                        </label>
+                        <p>King's Crown</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat21" name="hatSelectOption" value="all" data-image-src="asset/img/hat/LaurelWreath.png">
+                        <label for="hat21">
+                           <img src="asset/img/hat/LaurelWreath.png" alt="">
+                        </label>
+                        <p>Laurel Wreath</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat22" name="hatSelectOption" value="all" data-image-src="asset/img/hat/PartyHat1.png">
+                        <label for="hat22">
+                           <img src="asset/img/hat/PartyHat1.png" alt="">
+                        </label>
+                        <p>Party Hat 1</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat23" name="hatSelectOption" value="all" data-image-src="asset/img/hat/PartyHat2.png">
+                        <label for="hat23">
+                           <img src="asset/img/hat/PartyHat2.png" alt="">
+                        </label>
+                        <p>Party Hat 2</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat24" name="hatSelectOption" value="all" data-image-src="asset/img/hat/PoliceMotorcycleHelmet.png">
+                        <label for="hat24">
+                           <img src="asset/img/hat/PoliceMotorcycleHelmet.png" alt="">
+                        </label>
+                        <p>Police Motorcycle Helmet</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat25" name="hatSelectOption" value="all" data-image-src="asset/img/hat/PrussianHelmet.png">
+                        <label for="hat25">
+                           <img src="asset/img/hat/PrussianHelmet.png" alt="">
+                        </label>
+                        <p>Prussian Helmet</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat26" name="hatSelectOption" value="all" data-image-src="asset/img/hat/S&mHat.png">
+                        <label for="hat26">
+                           <img src="asset/img/hat/S&mHat.png" alt="">
+                        </label>
+                        <p>S&m Hat</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat27" name="hatSelectOption" value="all" data-image-src="asset/img/hat/Safari.png">
+                        <label for="hat27">
+                           <img src="asset/img/hat/Safari.png" alt="">
+                        </label>
+                        <p>Safari</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat28" name="hatSelectOption" value="all" data-image-src="asset/img/hat/SeaCaptainsHat.png">
+                        <label for="hat28">
+                           <img src="asset/img/hat/SeaCaptainsHat.png" alt="">
+                        </label>
+                        <p>Sea Captain's Hat</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat29" name="hatSelectOption" value="all" data-image-src="asset/img/hat/SeamansHat.png">
+                        <label for="hat29">
+                           <img src="asset/img/hat/SeamansHat.png" alt="">
+                        </label>
+                        <p>Seaman's Hat</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat30" name="hatSelectOption" value="all" data-image-src="asset/img/hat/ShortMohawk.png">
+                        <label for="hat30">
+                           <img src="asset/img/hat/ShortMohawk.png" alt="">
+                        </label>
+                        <p>Short Mohawk</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat31" name="hatSelectOption" value="all" data-image-src="asset/img/hat/SpinnerHat.png">
+                        <label for="hat31">
+                           <img src="asset/img/hat/SpinnerHat.png" alt="">
+                        </label>
+                        <p>Spinner Hat</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat32" name="hatSelectOption" value="all" data-image-src="asset/img/hat/StuntmanHelmet.png">
+                        <label for="hat32">
+                           <img src="asset/img/hat/StuntmanHelmet.png" alt="">
+                        </label>
+                        <p>Stuntman Helmet</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat33" name="hatSelectOption" value="all" data-image-src="asset/img/hat/SushiChefHeadband.png">
+                        <label for="hat33">
+                           <img src="asset/img/hat/SushiChefHeadband.png" alt="">
+                        </label>
+                        <p>Sushi Chef Headband</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat34" name="hatSelectOption" value="all" data-image-src="asset/img/hat/TrippyCaptainsHat.png">
+                        <label for="hat34">
+                           <img src="asset/img/hat/TrippyCaptainsHat.png" alt="">
+                        </label>
+                        <p>Trippy Captain's Hat</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat35" name="hatSelectOption" value="all" data-image-src="asset/img/hat/VietnamEraHelmet.png">
+                        <label for="hat35">
+                           <img src="asset/img/hat/VietnamEraHelmet.png" alt="">
+                        </label>
+                        <p>Vietnam Era Helmet</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="hat_select_input_box">
+                        <input type="radio" id="hat36" name="hatSelectOption" value="all" data-image-src="asset/img/hat/Ww2PilotHelm.png">
+                        <label for="hat36">
+                           <img src="asset/img/hat/Ww2PilotHelm.png" alt="">
+                        </label>
+                        <p>Ww2 Pilot Helm</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- eyes select options  -->
+         <div class="tab-pane fade global_slect_wrapper" id="nav-eyes" role="tabpanel" aria-labelledby="nav-eyes-tab">
+            <div class="tab_global_title">
+               <h3>Select Eyes</h3>
+            </div>
+            <div class="eyes_select_option_form">
+               <div class="row">
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye1" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/3d.png">
+                        <label for="eye1">
+                           <img src="asset/img/eyes/3d.png" alt="">
+                        </label>
+                        <p>3d</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye2" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/Angry.png">
+                        <label for="eye2">
+                           <img src="asset/img/eyes/Angry.png" alt="">
+                        </label>
+                        <p>Angry</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye3" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/Blindfold.png">
+                        <label for="eye3">
+                           <img src="asset/img/eyes/Blindfold.png" alt="">
+                        </label>
+                        <p>Blindfold</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye4" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/Bloodshot.png">
+                        <label for="eye4">
+                           <img src="asset/img/eyes/Bloodshot.png" alt="">
+                        </label>
+                        <p>Bloodshot</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye5" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/BlueBeams.png">
+                        <label for="eye5">
+                           <img src="asset/img/eyes/BlueBeams.png" alt="">
+                        </label>
+                        <p>Blue Beams</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye6" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/Bored.png">
+                        <label for="eye6">
+                           <img src="asset/img/eyes/Bored.png" alt="">
+                        </label>
+                        <p>Bored</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye7" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/Closed.png">
+                        <label for="eye7">
+                           <img src="asset/img/eyes/Closed.png" alt="">
+                        </label>
+                        <p>Closed</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye8" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/Coins.png">
+                        <label for="eye8">
+                           <img src="asset/img/eyes/Coins.png" alt="">
+                        </label>
+                        <p>Coins</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye9" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/Crazy.png">
+                        <label for="eye9">
+                           <img src="asset/img/eyes/Crazy.png" alt="">
+                        </label>
+                        <p>Crazy</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye10" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/Cyborg.png">
+                        <label for="eye10">
+                           <img src="asset/img/eyes/Cyborg.png" alt="">
+                        </label>
+                        <p>Cyborg</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye11" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/Eyepatch.png">
+                        <label for="eye11">
+                           <img src="asset/img/eyes/Eyepatch.png" alt="">
+                        </label>
+                        <p>Eyepatch</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye12" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/Heart.png">
+                        <label for="eye12">
+                           <img src="asset/img/eyes/Heart.png" alt="">
+                        </label>
+                        <p>Heart</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye13" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/Holographic.png">
+                        <label for="eye13">
+                           <img src="asset/img/eyes/Holographic.png" alt="">
+                        </label>
+                        <p>Holographic</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye14" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/Hypnotized.png">
+                        <label for="eye14">
+                           <img src="asset/img/eyes/Hypnotized.png" alt="">
+                        </label>
+                        <p>Hypnotized</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye15" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/LaserEyes.png">
+                        <label for="eye15">
+                           <img src="asset/img/eyes/LaserEyes.png" alt="">
+                        </label>
+                        <p>Laser Eyes</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye16" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/Robot.png">
+                        <label for="eye16">
+                           <img src="asset/img/eyes/Robot.png" alt="">
+                        </label>
+                        <p>Robot</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye17" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/Sad.png">
+                        <label for="eye17">
+                           <img src="asset/img/eyes/Sad.png" alt="">
+                        </label>
+                        <p>Sad</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye18" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/Scumbag.png">
+                        <label for="eye18">
+                           <img src="asset/img/eyes/Scumbag.png" alt="">
+                        </label>
+                        <p>Scumbag</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye19" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/Sleepy.png">
+                        <label for="eye19">
+                           <img src="asset/img/eyes/Sleepy.png" alt="">
+                        </label>
+                        <p>Sleepy</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye20" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/Sunglasses.png">
+                        <label for="eye20">
+                           <img src="asset/img/eyes/Sunglasses.png" alt="">
+                        </label>
+                        <p>Sunglasses</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye21" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/WideEyed.png">
+                        <label for="eye21">
+                           <img src="asset/img/eyes/WideEyed.png" alt="">
+                        </label>
+                        <p>Wide Eyed</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye22" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/XEyes.png">
+                        <label for="eye22">
+                           <img src="asset/img/eyes/XEyes.png" alt="">
+                        </label>
+                        <p>X Eyes</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="eye_select_input_box">
+                        <input type="radio" id="eye23" name="eyeSelectOption" value="all" data-image-src="asset/img/eyes/Zombie.png">
+                        <label for="eye23">
+                           <img src="asset/img/eyes/Zombie.png" alt="">
+                        </label>
+                        <p>Zombie</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- mouth select options  -->
+         <div class="tab-pane fade global_slect_wrapper" id="nav-mouth" role="tabpanel" aria-labelledby="nav-mouth-tab">
+            <div class="tab_global_title">
+               <h3>Select Mouth</h3>
+            </div>
+            <div class="mouth_select_option_form">
+               <div class="row">
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth1" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/Bored.png">
+                        <label for="mouth1">
+                           <img src="asset/img/mouth/Bored.png" alt="">
+                        </label>
+                        <p>Bored</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth2" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/BoredBubblegum.png">
+                        <label for="mouth2">
+                           <img src="asset/img/mouth/BoredBubblegum.png" alt="">
+                        </label>
+                        <p>Bored Bubblegum</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth3" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/BoredCigar.png">
+                        <label for="mouth3">
+                           <img src="asset/img/mouth/BoredCigar.png" alt="">
+                        </label>
+                        <p>Bored Cigar</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth4" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/BoredCigarette.png">
+                        <label for="mouth4">
+                           <img src="asset/img/mouth/BoredCigarette.png" alt="">
+                        </label>
+                        <p>Bored Cigarette</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth5" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/BoredDagger.png">
+                        <label for="mouth5">
+                           <img src="asset/img/mouth/BoredDagger.png" alt="">
+                        </label>
+                        <p>Bored Dagger</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth6" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/BoredKazoo.png">
+                        <label for="mouth6">
+                           <img src="asset/img/mouth/BoredKazoo.png" alt="">
+                        </label>
+                        <p>Bored Kazoo</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth7" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/BoredPartyHorn.png">
+                        <label for="mouth7">
+                           <img src="asset/img/mouth/BoredPartyHorn.png" alt="">
+                        </label>
+                        <p>Bored Party Horn</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth8" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/BoredPipe.png">
+                        <label for="mouth8">
+                           <img src="asset/img/mouth/BoredPipe.png" alt="">
+                        </label>
+                        <p>Bored Pipe</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth9" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/BoredPizza.png">
+                        <label for="mouth9">
+                           <img src="asset/img/mouth/BoredPizza.png" alt="">
+                        </label>
+                        <p>Bored Pizza</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth10" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/BoredUnshaven.png">
+                        <label for="mouth10">
+                           <img src="asset/img/mouth/BoredUnshaven.png" alt="">
+                        </label>
+                        <p>Bored Unshaven</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth11" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/BoredUnshavenBubblegum.png">
+                        <label for="mouth11">
+                           <img src="asset/img/mouth/BoredUnshavenBubblegum.png" alt="">
+                        </label>
+                        <p>Bored Unshaven Bubblegum</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth12" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/BoredUnshavenCigar.png">
+                        <label for="mouth12">
+                           <img src="asset/img/mouth/BoredUnshavenCigar.png" alt="">
+                        </label>
+                        <p>Bored Unshaven Cigar</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth13" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/BoredUnshavenCigarette.png">
+                        <label for="mouth13">
+                           <img src="asset/img/mouth/BoredUnshavenCigarette.png" alt="">
+                        </label>
+                        <p>Bored Unshaven Cigarette</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth14" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/BoredUnshavenDagger.png">
+                        <label for="mouth14">
+                           <img src="asset/img/mouth/BoredUnshavenDagger.png" alt="">
+                        </label>
+                        <p>Bored Unshaven Dagger</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth15" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/BoredUnshavenKazoo.png">
+                        <label for="mouth15">
+                           <img src="asset/img/mouth/BoredUnshavenKazoo.png" alt="">
+                        </label>
+                        <p>Bored Unshaven Kazoo</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth16" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/BoredUnshavenPartyHorn.png">
+                        <label for="mouth16">
+                           <img src="asset/img/mouth/BoredUnshavenPartyHorn.png" alt="">
+                        </label>
+                        <p>Bored Unshaven Party horn</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth17" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/BoredUnshavenPipe.png">
+                        <label for="mouth17">
+                           <img src="asset/img/mouth/BoredUnshavenPipe.png" alt="">
+                        </label>
+                        <p>Bored Unshaven Pipe</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth18" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/BoredPizza.png">
+                        <label for="mouth18">
+                           <img src="asset/img/mouth/BoredPizza.png" alt="">
+                        </label>
+                        <p>Bored Unshaven Pizza</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth19" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/Discomfort.png">
+                        <label for="mouth19">
+                           <img src="asset/img/mouth/Discomfort.png" alt="">
+                        </label>
+                        <p>Discomfort</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth20" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/Dumbfounded.png">
+                        <label for="mouth20">
+                           <img src="asset/img/mouth/Dumbfounded.png" alt="">
+                        </label>
+                        <p>Dumbfounded</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth21" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/Grin.png">
+                        <label for="mouth21">
+                           <img src="asset/img/mouth/Grin.png" alt="">
+                        </label>
+                        <p>Grin</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth22" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/GrinDiamondGrill.png">
+                        <label for="mouth22">
+                           <img src="asset/img/mouth/GrinDiamondGrill.png" alt="">
+                        </label>
+                        <p>Grin Diamond Grill</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth23" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/GrinGoldGrill.png">
+                        <label for="mouth23">
+                           <img src="asset/img/mouth/GrinGoldGrill.png" alt="">
+                        </label>
+                        <p>Grin Gold Grill</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth24" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/GrinMulticolored.png">
+                        <label for="mouth24">
+                           <img src="asset/img/mouth/GrinMulticolored.png" alt="">
+                        </label>
+                        <p>Grin Multicolored</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth25" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/Jovial.png">
+                        <label for="mouth25">
+                           <img src="asset/img/mouth/Jovial.png" alt="">
+                        </label>
+                        <p>Jovial</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth26" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/PhonemeL.png">
+                        <label for="mouth26">
+                           <img src="asset/img/mouth/PhonemeL.png" alt="">
+                        </label>
+                        <p>Phoneme L</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth27" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/PhonemeOh.png">
+                        <label for="mouth27">
+                           <img src="asset/img/mouth/PhonemeOh.png" alt="">
+                        </label>
+                        <p>Phoneme Oh</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth28" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/PhonemeOoo.png">
+                        <label for="mouth28">
+                           <img src="asset/img/mouth/PhonemeOoo.png" alt="">
+                        </label>
+                        <p>Phoneme ooo</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth29" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/PhonemeVuh.png">
+                        <label for="mouth29">
+                           <img src="asset/img/mouth/PhonemeVuh.png" alt="">
+                        </label>
+                        <p>Phoneme Vuh</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth30" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/PhonemeWah.png">
+                        <label for="mouth30">
+                           <img src="asset/img/mouth/PhonemeWah.png" alt="">
+                        </label>
+                        <p>Phoneme Wah</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth31" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/Rage.png">
+                        <label for="mouth31">
+                           <img src="asset/img/mouth/Rage.png" alt="">
+                        </label>
+                        <p>Rage</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth32" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/SmallGrin.png">
+                        <label for="mouth32">
+                           <img src="asset/img/mouth/SmallGrin.png" alt="">
+                        </label>
+                        <p>Small Grin</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="mouth_select_input_box">
+                        <input type="radio" id="mouth33" name="mouthSelectOption" value="all" data-image-src="asset/img/mouth/TongueOut.png">
+                        <label for="mouth33">
+                           <img src="asset/img/mouth/TongueOut.png" alt="">
+                        </label>
+                        <p>Tongue Out</p>
+                     </div>
+                  </div>
+
+
+
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      <div class="main_content">
+         <div id="main_bg_content">
+            <div class="image_layer_box">
+               <img id="fur_image" src="asset/img/BaseApe.png" alt="">
+               <img id="earring_style" src="" alt="">
+               <img id="clothes_style" src="" alt="">
+               <img id="hat_style" src="" alt="">
+               <img id="eye_style" src="" alt="">
+               <img id="mouth_style" src="" alt="">
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- all javascript load here -->
+   <script src="asset/js/vendor/jquery-3.3.1.min.js"></script>
+   <script src="asset/js/bootstrap.bundle.min.js"></script>
+   <script src="asset/js/app.js"></script>
+</body>
+
+</html>
